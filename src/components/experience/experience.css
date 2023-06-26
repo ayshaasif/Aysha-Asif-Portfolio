@@ -1,0 +1,121 @@
+
+
+.experience_header{
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.experience_container::after, .experience_container::before{
+   content:none;
+}
+
+.experience_container{
+    margin-top:50px !important;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(auto-fill,1fr);
+    grid-row-gap: 2em;
+    grid-column-gap: 1em;
+}
+
+.skill{
+    margin:5%;
+}
+/* media queries for medium devices - TABLETS */
+@media screen and (min-width:600px) and (max-width:1024px)  {
+    .experience section {
+            /* height:100vh; */
+            margin: 5rem auto;
+    
+        }
+
+    .experience_header {
+        height: 10vh;
+    }
+
+        .experience_container {
+            position:relative;
+            left:45%;
+            transform:translateX(-50%);
+            width: 100vw;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-row-gap: .5em;
+            grid-column-gap: 1em;
+        }
+}
+
+
+/* media queries for small devices -   phones */
+@media screen and  (min-width: 330px) and (max-width: 600px) {
+    .experience section{
+        /* height:100vh; */
+        margin:10rem auto;
+
+    }
+    .experience_header {
+        width: 100vw;
+    }
+    .experience_container {
+        margin-top: 50px !important;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(auto-fill, 1fr);
+        grid-row-gap: .5em;
+        grid-column-gap: 1em;
+    }
+}
+
+
+/* circular skill progress */
+
+.skill{
+    width: 160px;
+    height:160px;
+    position:relative;
+box-sizing: border-box;
+}
+
+.outer{
+  width: 160px;
+  height:160px;
+  border-radius: 50%;
+  padding:20px;
+  box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+     -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.inner{
+    height:120px;
+    width:120px;
+    border-radius: 50%;
+    box-shadow: inset 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+            inset -6px -6px 10px -1px rgba(255, 255, 255, 0.7),
+            -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+            0.5px 0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+            0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    /* font-size: 20px; */
+
+}
+
+#circle{
+    fill:none;
+    stroke:url(#GradientColor);
+    stroke-width:20px;
+    stroke-dasharray:472;
+    /* stroke-dashoffset:0; */
+    /* animation: anim 2s linear forwards */
+}
+
+#svg{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+

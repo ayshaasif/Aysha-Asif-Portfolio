@@ -1,0 +1,135 @@
+#services{
+        background-color: var(--color-primary-variant);
+}
+@media screen and (min-width: 1025px){ 
+    #services {
+    padding-top: 5em;
+    margin: 50px 50px 0 50px;
+    }
+
+    #services .container{
+        margin-top:80px !important;
+    }
+}
+
+#services .container{
+    display:grid;
+    
+    grid-template-columns: repeat(auto-fill,minmax(200px,0.5fr));
+    grid-row-gap: 2em;
+        grid-column-gap: 1em;
+    margin: auto;
+}
+
+
+#services h4{
+    text-align: center;
+    font-size: 36px;
+}
+
+.project__card{
+    width: fit-content;
+    height: max-content;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-bg-variant);
+    margin: 10px;
+    border-radius: 25px;
+}
+
+#services .container::after,
+#services .container::before {
+    content: none;
+}
+
+.Project__Image{
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.card-info{
+    text-align: center;
+}
+.card-info p{
+    font-size: 11px;
+}
+
+
+/* media queries for small devices -   phones */
+@media screen and (min-width:330px) and (max-width: 600px) {
+#services {
+        padding: 20px;
+        background: var(--color-primary-variant);
+        opacity: 0.9;
+        text-align: center;
+        height: fit-content;
+    }
+    #services h4{
+            color:var(--color-bg-variant);
+            margin: 40px;
+        }
+    #services .container {
+        margin-top: 0px !important;
+        width: 100%;
+        display: grid;
+        grid-template-columns:1fr;
+        grid-row-gap: 0.5em;
+        grid-column-gap: 1em;
+    }
+
+        .Project__Image {
+            width: 100px;
+            height: 80px;
+            border-radius: 10px;
+        }
+    
+        .project__card{
+                background-color: var(--color-bg-variant);
+                color: black;
+        }
+    
+        .card-info p {
+            font-size: 10px;
+            color:bisque;
+        }
+
+}
+
+@media screen and (min-width:601px) and (max-width: 1024px) {
+    #services{
+        
+        background: var(--color-primary-variant);
+            text-align: center;
+            height: fit-content;
+    }
+#services .container {
+        margin-top: 50px !important;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 1fr);
+        grid-template-rows: repeat(auto-fill, 1fr);
+        grid-row-gap: .5em;
+        grid-column-gap: 1em;
+    }
+ .project__card {
+     background-color: var(--color-bg-variant);
+     color: black;
+ }
+    .Project__Image {
+        
+        width: 80%;
+        height: 50%;
+        border-radius: 10px;
+    }
+
+
+    .card-info p {
+        font-size: 10px;
+        color: bisque;
+    }
+}

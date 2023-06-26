@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400;1,500;1,700;1,900&display=swap');
+
+header{
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.header-h{
+    font-size:55px;
+   margin-left:180px;
+   font-family: 'Poppins',sans-serif;
+   text-align:left;
+}
+.header-h:nth-of-type(2) {
+    font-size: 75px;
+    color:var(--color-bg-variant);
+}
+
+.dot{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-bg-variant);
+    border-radius: 50%;
+}
+.header_container{
+    margin-top: 100px;
+    height: 100%;
+    position:relative;   
+
+}
+
+/* CTA */
+.cta{
+    margin-top: 5rem;
+    /* position:absolute; */
+    /* bottom:8rem; */
+    margin-bottom:8rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* Header Socials */
+
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.8rem;
+    position: absolute;
+    left:0;
+    bottom:3rem;
+    top:8em;
+}
+
+.header__socials::after{
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background-color: var(--color-primary-variant);
+}
+
+
+/* image ME */
+
+.me{
+    background: linear-gradient(var(--color-primary),
+                                    transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem); 
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding:5rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* Scroll Down */
+
+.scroll_down{
+    position: absolute;
+    right: -2.3rem;
+    bottom:27rem;
+    transform:  rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.Typewriter {
+    font-size: 50px;
+margin-left: 180px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 800;
+
+}
+
+/* media queries for small devices - mobile */
+@media screen and (min-width:330px) and (max-width: 700px) {
+
+   span.Typewriter_wrapper{
+    font-size: 30px;
+    text-align:center;
+    color:var(--color-primary);
+   }
+    header{
+        height: fit-content;
+        padding-top:0;
+    }
+   .header-h {
+       font-size: 25px;
+       font-family: 'Poppins', sans-serif;
+       text-align: center;
+       margin:0;
+   }
+
+   .Typewriter {
+       font-size: 30px;
+       text-align: center;
+       margin-left: 0px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-weight: 800;
+
+   }
+   
+}
+
+/* media queries for medium devices - tablets */
+@media screen and (min-width:700px) and (max-width: 1024px) {
+
+    span.Typewriter_wrapper {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    header {
+        height: fit-content;
+        padding-top: 0;
+    }
+
+    .header-h {
+        font-size: 45px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        margin: 0;
+    }
+
+}
+
+
+
