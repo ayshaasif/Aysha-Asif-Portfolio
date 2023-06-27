@@ -38,12 +38,12 @@
     margin: 50px;
     border-radius: 25px;
 }
-
+/* 
 .project__card:hover{
     scale: 1.3;
     border:1px solid black;
     z-index: 2;
-}
+} */
 
 
 #services .container::after,
@@ -74,6 +74,7 @@
         opacity: 0.9;
         text-align: center;
         height: fit-content;
+        width:fit-content;
     }
     #services h4{
             color:var(--color-bg-variant);
@@ -87,22 +88,34 @@
         grid-row-gap: 0.5em;
         grid-column-gap: 1em;
     }
+        
+    .project__card{
+        background-color: var(--color-bg-variant);
+        color: black;
+        width:300px;
+        height: 350px;
+        }
+
+           
+    .project__card:hover{
+            scale: 1;
+        }
 
         .Project__Image {
-            width: 100px;
-            height: 80px;
+            width: 100%;
+            height: 100%;
             border-radius: 10px;
         }
-    
-        .project__card{
-                background-color: var(--color-bg-variant);
-                color: black;
-        }
+
     
         .card-info p {
             font-size: 10px;
             color:bisque;
         }
+
+ 
+
+
 
 }
 
@@ -136,7 +149,13 @@
 
 
     .card-info p {
-        font-size: 20px;
+        font-size: 10px;
         color: bisque;
     }
+
+            
+.project__card:hover{
+    scale: none !important;
+ }
+ 
 }
