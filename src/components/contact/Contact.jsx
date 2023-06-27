@@ -7,6 +7,10 @@ import {FaGithub} from 'react-icons/fa'
 import {FiDribbble} from 'react-icons/fi'
 import {MdEmail,MdMarkAsUnread} from 'react-icons/md';
 
+
+let linkedInLink = "https://www.linkedin.com/in/aysha-asif-4a77811ab/";
+let githubLink = "https://github.com/ayshaasif";
+
 const Contact = () => {
     const host = window.location.origin;
     return (
@@ -25,20 +29,21 @@ const Contact = () => {
                 </div>
                 <div>
                        <p className='contact-me-info'> 
-                            Consider me for building your new <b>Website</b> ...<br/>
+                            Consider me for building your new <b>Website</b><br/>
                             and <br/> to <b>automate</b> the <i>boring</i> stuff.<br></br>
 
                             Take a look at some of my projects <br/>
-                            ...or get to know me better :                            
+                            or get to know me better :                            
                        </p>
 
                        <hr></hr>
                       <a id="downloadable-cv" href={AyshaAsif_2022} download className='btn'>Download CV</a>
                       <br>
-                      </br><a id="email" href="" target="_blank"><MdEmail/><i>ayshaasif14@gmail.com</i></a>
+                      </br><a id="email" href="" target="_blank"><MdEmail/><i>  ayshaasif14@gmail.com</i></a>
                       <div className='SocialMediaLinks'>
-                        <a href="http://linkedin.com" target="_blank"><BsLinkedin/></a>
-                        <a href="http://github.com" target="_blank"><FaGithub/></a>
+                        <a href={linkedInLink} target="_blank"><BsLinkedin/></a>
+                        <br></br>
+                        <a href={githubLink} target="_blank"><FaGithub/></a>
                       </div>
                 </div>
               

@@ -1,7 +1,7 @@
 
 
 #about{
-        background-color: var(--color-primary-variant);
+    background-color: var(--color-primary-variant);
 }
 
 #about h5,h2{
@@ -145,7 +145,7 @@
 @media  screen and (min-width:1025px) {
     #about {
             padding-top: 5em;
-            margin: 50px 50px 0 50px;
+            /* margin: 50px 50px 0 50px; */
     
         }
 }
