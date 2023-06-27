@@ -18,7 +18,6 @@ const Services = () => {
               <Project ProjectName="Candy Crush" ProjectImage={Candy} ProjectDetail={projectDetail_Candy_crush} />  
               <Project ProjectName="Student Record Management System " ProjectImage={Candy} ProjectDetail= {projectDetail_student_record} />  
               <Project ProjectName="Vaccination Booking System" ProjectImage={Candy} ProjectDetail={projectDetail_vaccination_booking_system} />  
-              <Project ProjectName="candy crush" ProjectImage={Candy} ProjectDetail='Vanilla Javascript Project, html,css' />  
             </div>
         </section>
     )
