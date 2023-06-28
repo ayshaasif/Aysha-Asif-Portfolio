@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Aysha-Asif-Portfolio/static/css/main.daf3afda.css",
-    "main.js": "/Aysha-Asif-Portfolio/static/js/main.88959697.js",
+    "main.js": "/Aysha-Asif-Portfolio/static/js/main.6927cc9e.js",
     "static/media/candy-crush-saga-candies.png": "/Aysha-Asif-Portfolio/static/media/candy-crush-saga-candies.a28ffa9c8b802778910d.png",
     "static/media/DSProjects.png": "/Aysha-Asif-Portfolio/static/media/DSProjects.39b56662f902d72fa8e0.png",
-    "static/media/Aysha asif (2).pdf": "/Aysha-Asif-Portfolio/static/media/Aysha asif (2).6183cf96a5e781fd78fb.pdf",
+    "static/media/Aysha asif (2).pdf": "/Aysha-Asif-Portfolio/static/media/Aysha asif (2).9675687e8419c8f307c4.pdf",
     "static/media/SkillsetSearchform.jpg": "/Aysha-Asif-Portfolio/static/media/SkillsetSearchform.4f98540d733750803df3.jpg",
     "static/media/cryptsio.png": "/Aysha-Asif-Portfolio/static/media/cryptsio.e7162d1882e657557ed5.png",
     "static/media/Java-Mysql.jpg": "/Aysha-Asif-Portfolio/static/media/Java-Mysql.1edffa36884bba5f6ffb.jpg",
     "index.html": "/Aysha-Asif-Portfolio/index.html",
     "main.daf3afda.css.map": "/Aysha-Asif-Portfolio/static/css/main.daf3afda.css.map",
-    "main.88959697.js.map": "/Aysha-Asif-Portfolio/static/js/main.88959697.js.map"
+    "main.6927cc9e.js.map": "/Aysha-Asif-Portfolio/static/js/main.6927cc9e.js.map"
   },
   "entrypoints": [
     "static/css/main.daf3afda.css",
-    "static/js/main.88959697.js"
+    "static/js/main.6927cc9e.js"
   ]
 }
