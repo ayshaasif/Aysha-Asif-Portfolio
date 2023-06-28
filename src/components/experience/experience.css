@@ -25,7 +25,8 @@
 @media screen and (min-width:600px) and (max-width:1024px)  {
     .experience section {
             /* height:100vh; */
-            margin: 5rem auto;
+            /* margin: 5rem auto; */
+            width: 100vw;
     
         }
 
@@ -35,7 +36,7 @@
 
         .experience_container {
             position:relative;
-            left:45%;
+            left:40%;
             transform:translateX(-50%);
             width: 100vw;
             display: grid;
